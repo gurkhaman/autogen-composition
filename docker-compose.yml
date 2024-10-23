@@ -3,7 +3,4 @@ services:
     image: autogen_full_img:latest
     container_name: autogen_app_container
     ports:
-      - "8080:3000"  # Map port 3000 inside the container to port 8080 on the host machine
-    working_dir: /myapp  # Set the working directory in the container
-    tty: true  # Allocate a pseudo-TTY for interactive processes
-    stdin_open: true  # Keep stdin open to allow interactive shell if needed
+      - "8080:3000" 
